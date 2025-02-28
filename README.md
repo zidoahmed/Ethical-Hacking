@@ -1,2 +1,2 @@
 # Ethical-Hacking
-This will be my ethical hacking notes, projects and overall my portfolio my cybersec journey
+- This repo contains everything in my cybersec journey. My notes, my projects, My portfolio as a whole and everything regarding this journey in hacking.
