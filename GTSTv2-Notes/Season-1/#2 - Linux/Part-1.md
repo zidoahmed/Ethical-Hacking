@@ -2,7 +2,7 @@
 ### What is Linux
 - Linux is a kernel, not an operating system. (*without GNU, it is just a kernel but with the GNU in the front like GNU/Linux becomes an OS*)
 - **Kernel** is a code/program that is used to meet your software and hardware and allocate some resources. (basically, it is used to connect the hardware and software found in our computer.)
-- ![[Linux_kernel.png]]
+- ![[Linux_kernel.jpg]]
 - For an operating system to known as an OS, it needs a kernel in order to connect both the hardware and software of a computer. Linux is the kernel of the Linux OS. 
 ### History of Linux
 - In **1969**, a team led by computer scientists **Ken Thompson and Denis Pitchie** created the first version of **UNIX on a PDP-7 minicomputer.**
@@ -37,10 +37,10 @@
 > echo $SHELL
 ```
 - Then, it will show you what kind of shell you're currently using.
-- **SH Interface**:- No flashy coloring, just straight black and white. ![[shell_interface.png]]
-- **BASH Interface**:- It's more colorful than SH. Have better piping then SH ![[BASH_Interface.png]]
+- **SH Interface**:- No flashy coloring, just straight black and white. ![[shell_interface.jpg]]
+- **BASH Interface**:- It's more colorful than SH. Have better piping then SH ![[bash_Interface.jpg]]
 - **ZSH Interface**:- is my current shell in my laptop, so basically I don't photos of it.
-- **FISH Interface**:- considered the most colorful shell type of all types. it is more recommended for women because it is mostly used by women hackers. ![[FISH_Interface.png]]
+- **FISH Interface**:- considered the most colorful shell type of all types. it is more recommended for women because it is mostly used by women hackers. ![[fish_Interface.jpg]]
 ### What is an OS - Operating System?
 - OS is "Operating System", which means the main software part of computer that helps to work on.
 - It is our computer's main software, without it our computers would be a blank screen. (Hardware without software can't exist and vice versa.)
