@@ -36,25 +36,37 @@
 ### Installation methods
 - The main thing about these installation methods is just to get access to a terminal which is the main instrument we need in order to perform hacking.
 
-| Installation method   | Procedure                                                                                                                                                    | Advantages                                                    | Disadvantages                                                |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- | ------------------------------------------------------------ |
-| 1. Main Os/ Main-boot | Kali Linux is installed as the sole operating system in your machine                                                                                         | Performance, security and simplicity                          | No Access to other OS, Data loss risk                        |
-| 2. Dual Boot (2 in 1) | Kali Linux is installed alongside another OS (usually windows or another Linux distro)                                                                       | Access to Multiple OS and Data presentation                   | Complexity and no resource sharing between Operating Systems |
-| 3. Live boot          | refers to running an operating system from a removable media. (Like USB Drive or any other)                                                                  | Privacy and No risk of data loss                              | Resource sharing                                             |
-| 4. Cloud terminals    | This procedure is recommended for really low performance laptops, which is basically using it on the web on any web browser you want. Using www.webminal.org | Useful for people with devices that have very low performance | you can only use the terminal                                |
-| 5. Virtual Machine    | This is the most popular way used by hackers to use multiple operating systems.                                                                              | The ability of using more than 2 OS on a single machine       | It may affect the performance of your device                 |
-|                       |                                                                                                                                                              |                                                               |                                                              |
-- Computers have a technology called "virtualization". This is the method how it allocate our memory to the VMs.
+| Installation method                   | Procedure                                                                                                                                                                                     | Advantages                                                                                         | Disadvantages                                                                                           |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| 1. Main Os/ Main-boot                 | Kali Linux is installed as the sole operating system in your machine                                                                                                                          | Performance, security and simplicity                                                               | No Access to other OS, Data loss risk                                                                   |
+| 2. Dual Boot (2 in 1)                 | Kali Linux is installed alongside another OS (usually windows or another Linux distro)                                                                                                        | Access to Multiple OS and Data presentation                                                        | Complexity and no resource sharing between Operating Systems                                            |
+| 3. Live boot                          | refers to running an operating system from a removable media. (Like USB Drive or any other)                                                                                                   | Privacy and No risk of data loss                                                                   | Resource sharing                                                                                        |
+| 4. Cloud terminals                    | This procedure is recommended for really low performance laptops, which is basically using it on the web on any web browser you want. Using www.webminal.org                                  | Useful for people with devices that have very low performance                                      | you can only use the terminal                                                                           |
+| 5. Virtual Machine                    | This is the most popular way used by hackers to use multiple operating systems.                                                                                                               | The ability of using more than 2 OS on a single machine. This is also useful for resource sharing. | It may affect the performance of your device                                                            |
+| 1. WSL (Windows Subsystem for Linux.) | This procedure includes using the windows CMD and then using the "wsl --install" command to install the kali Linux terminal within the CMD using the kali Linux app from the Microsoft store. | Very small usage of the host device's RAM around 600MB ~ 800MB of the total RAM                    | Doesn't have access to Wi-Fi hacking tools but still the other hacking tools are available to download. |
+ - Computers have a technology called "virtualization". This is the method how it allocate our memory to the VMs.
 - There is 2 types of virtualization:
 	### 1. Type 1 Virtualization (Bare-Metal Hypervisor):- 
 	- Runs directly on the physical hardware.
 	- does not require a host operating system.
+	- more commonly used in servers and big corporations..
 	- Examples:- VMware ESXi, Proxmox, Xen.
 	- Advantages:- 
 		- Higher performance and efficiency
 		- Better resource management and isolation
 		- Commonly used in enterprise environments for server virtualization.
-	### 2. Type 2 Virtualization:-
-	- Requires a host operating system.
-	- Basically the opposite of the type 1 virtualization.
-	- continue on 1:06:25
+	- Usually this type of virtualization starts like this once you open your computer or your device. ![[Proxmox.png]]
+	### 2. Type 2 Virtualization (Hosted Hypervisor):-
+	-  Basically the opposite of the type 1 virtualization.
+	- Requires a host operating system. (This is the main difference between the two types of virtualization)
+	- Relies on the host OS to manage hardware resources.
+	- Examples:- VMware Workstation, Oracle VirtualBox.
+	- Advantages:-
+		- Easier to set up and use
+		- Suitable for personal or development environments.![[Type-2 virtualization.png]]
+### You have to check some systems before setting up virtual machines.
+1. Open task manager
+2. Go to performance
+3. Open CPU (basically check the virtualization)
+- If it's disabled, you have to enable the BIOS settings (check youtube)
+- If it is good enabled we are good to go. That will basically help you use virtual machines).
